@@ -164,6 +164,19 @@ The MySQL database uses a **Star Schema** design with **3 Fact Tables** and **6 
 
 The dataset simulates a full-scale retail banking ecosystem with **9 interconnected, normalized tables** spanning the entire customer lifecycle:
 
+### 📥 Dataset Access & Download
+
+> 🔗 **[Download Complete Dataset & Power BI Files from Google Drive](YOUR_GOOGLE_DRIVE_LINK_HERE)**
+
+*Since raw CSV datasets (~400 MB, ~3M records) and the Power BI `.pbix` workbook exceed GitHub's recommended repository size, they are hosted on Google Drive.*
+
+**What's included in the Drive package:**
+- 📁 `data/` — All 9 raw CSV files (`customers.csv`, `transactions.csv`, `loan_applications.csv`, etc.)
+- 📊 `PowerBI/IndoSynth Bank.pbix` — Complete 5-page interactive Power BI workbook
+- 📑 Project & Dashboard build guides (`project_guide.md`, `powerbi_dashboard_specification.md`)
+
+---
+
 | Table | Records | Grain / Description | Key Attributes |
 | :--- | ---: | :--- | :--- |
 | `regions` | 40 | 1 row per geographic region | `region_id`, `zone`, `primary_state` |
