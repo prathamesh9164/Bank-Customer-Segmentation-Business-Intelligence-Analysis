@@ -1,0 +1,39 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+*.env
+
+# Data & Large Files / Specific User Exclusions
+*.csv
+*.zip
+*.pbix
+project_guide.md
+powerbi_dashboard_specification.md
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Generated Charts & Visualizations
+charts/*.html
+eda/charts/*.html
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor Configuration
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+

@@ -1,0 +1,8 @@
+# IndoSynth Gramin Bank — EDA Dependencies
+pandas
+numpy
+plotly
+scipy
+kaleido
+ipykernel
+nbformat>=4.2.0

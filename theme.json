@@ -1,0 +1,160 @@
+{
+    "name": "IndoSynth Rose Gold Light",
+    "dataColors": [
+        "#B76E79",
+        "#D4A59A",
+        "#E8C4B8",
+        "#2D8B6F",
+        "#D4915E",
+        "#9B6B8A",
+        "#6BA3A0",
+        "#D98880"
+    ],
+    "background": "#FFF5F0",
+    "foreground": "#2C1810",
+    "tableAccent": "#B76E79",
+    "visualStyles": {
+        "*": {
+            "*": {
+                "background": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        }
+                    }
+                ],
+                "border": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#F2D7D0"
+                            }
+                        },
+                        "radius": 8
+                    }
+                ],
+                "shadow": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#E8C4B8"
+                            }
+                        },
+                        "transparency": 75,
+                        "position": "Outer",
+                        "preset": "BottomRight",
+                        "blur": 12
+                    }
+                ],
+                "title": [
+                    {
+                        "show": true,
+                        "fontColor": {
+                            "solid": {
+                                "color": "#2C1810"
+                            }
+                        },
+                        "fontSize": 13,
+                        "fontFamily": "Segoe UI",
+                        "bold": false
+                    }
+                ]
+            }
+        },
+        "page": {
+            "*": {
+                "background": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#FFF5F0"
+                            }
+                        },
+                        "transparency": 0
+                    }
+                ]
+            }
+        },
+        "barChart": {
+            "*": {
+                "labels": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#2C1810"
+                            }
+                        },
+                        "fontSize": 9,
+                        "fontFamily": "Segoe UI"
+                    }
+                ],
+                "categoryAxis": [
+                    {
+                        "fontSize": 9,
+                        "fontFamily": "Segoe UI",
+                        "fontColor": {
+                            "solid": {
+                                "color": "#8B6F66"
+                            }
+                        }
+                    }
+                ],
+                "valueAxis": [
+                    {
+                        "fontSize": 9,
+                        "fontFamily": "Segoe UI",
+                        "fontColor": {
+                            "solid": {
+                                "color": "#8B6F66"
+                            }
+                        },
+                        "gridlineStyle": "dashed",
+                        "gridlineColor": {
+                            "solid": {
+                                "color": "#F2D7D0"
+                            }
+                        }
+                    }
+                ],
+                "legend": [
+                    {
+                        "fontSize": 10,
+                        "fontFamily": "Segoe UI",
+                        "fontColor": {
+                            "solid": {
+                                "color": "#8B6F66"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "textClasses": {
+        "callout": {
+            "fontSize": 22,
+            "fontFace": "Segoe UI",
+            "color": "#2C1810"
+        },
+        "title": {
+            "fontSize": 13,
+            "fontFace": "Segoe UI",
+            "color": "#2C1810"
+        },
+        "header": {
+            "fontSize": 12,
+            "fontFace": "Segoe UI",
+            "color": "#8B6F66"
+        },
+        "label": {
+            "fontSize": 10,
+            "fontFace": "Segoe UI",
+            "color": "#8B6F66"
+        }
+    }
+}
