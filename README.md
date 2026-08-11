@@ -166,7 +166,7 @@ The dataset simulates a full-scale retail banking ecosystem with **9 interconnec
 
 ### 📥 Dataset Access & Download
 
-> 🔗 **[Download Complete Dataset & Power BI Files from Google Drive](YOUR_GOOGLE_DRIVE_LINK_HERE)**
+> 🔗 **[Download Complete Dataset & Power BI Files from Google Drive](https://drive.google.com/drive/folders/1QcMacrT0vicMjUEcL77lpXHNml5AfcKc?usp=drive_link)**
 
 *Since raw CSV datasets (~400 MB, ~3M records) and the Power BI `.pbix` workbook exceed GitHub's recommended repository size, they are hosted on Google Drive.*
 
